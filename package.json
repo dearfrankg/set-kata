@@ -33,6 +33,6 @@
   },
   "keywords": [],
   "scripts": {
-    "test": "mocha **/*/*.spec.coffee"
+    "test": "mocha **/*/*.spec.coffee --reporter dot"
   }
 }
