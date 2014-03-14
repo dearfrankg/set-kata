@@ -30,5 +30,8 @@
     "sinon-chai": "*",
     "scaffolt": "*"
   },
-  "keywords": []
+  "keywords": [],
+  "scripts": {
+    "test": "mocha **/*/*.spec.coffee"
+  }
 }
