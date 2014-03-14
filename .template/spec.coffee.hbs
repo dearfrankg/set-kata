@@ -1,0 +1,11 @@
+set_kata = require('../src/set-kata.coffee')
+
+describe "about set_kata", ->
+
+  beforeEach (done) ->
+    @foo = set_kata.awesome()
+    done()
+
+
+  it "should be awesome", ->
+    @foo.should.equal "awesome"

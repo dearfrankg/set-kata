@@ -1,0 +1,18 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "src/*.coffee",
+    "./**/*.spec.coffee"
+  ],
+  "launchers": {
+    "Node": {
+      "command": "mocha ./**/*.spec.coffee" 
+    }
+  },
+  "launch_in_dev": [
+    "Node"
+  ],
+  "launch_in_ci": [
+    "Node"
+  ]
+}
