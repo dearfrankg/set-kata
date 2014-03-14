@@ -28,7 +28,8 @@
     "chai": "*",
     "sinon": "*",
     "sinon-chai": "*",
-    "scaffolt": "*"
+    "scaffolt": "*",
+    "mocha": "~1.18.0"
   },
   "keywords": [],
   "scripts": {
