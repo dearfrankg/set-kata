@@ -6,16 +6,21 @@
 
  [![Build Status](https://secure.travis-ci.org/dearfrankg/set-kata.png?branch=master)](http://travis-ci.org/dearfrankg/set-kata)
 
-The best project ever.
+Simple object demo
 
 
 
 ## Getting Started
 Install the module with: `npm install set-kata`
 
-```javascript
-var set_kata = require('set-kata');
-set_kata.awesome(); // "awesome"
+```coffeescript
+Set = require('../src/set-kata.coffee')
+
+set = new Set()
+set.length()
+set.add 55
+set.doesContains 55
+set.remove 55
 ```
 
 

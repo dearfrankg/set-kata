@@ -36,8 +36,8 @@ describe "about set_kata", ->
       (!!~mySet.indexOf 'a').should.be.true
       (!!~mySet.indexOf 55).should.be.true
 
-  describe "#contains", ->
+  describe "#doesContain", ->
     it 'should identfy contents', ->
       set.add 55
-      set.contains(55).should.be.true
-      set.contains(22).should.not.be.true
+      set.doesContain(55).should.be.true
+      set.doesContain(22).should.not.be.true

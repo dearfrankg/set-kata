@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/dearfrankg/set-kata/blob/master/LICENSE-MIT"
+      "url": "https://github.com/dearfrankg/set-kata/blob/master/LICENSE"
     }
   ],
   "engines": {
@@ -33,6 +33,7 @@
   },
   "keywords": [],
   "scripts": {
-    "test": "mocha **/*/*.spec.coffee --reporter dot"
+    "test": "mocha **/*/*.spec.coffee --reporter dot",
+    "bdd": "mocha -w **/*/*.spec.coffee"
   }
 }

@@ -8,11 +8,11 @@ Set:: =
 
   constructor: Set
 
-  getSet: ->
-    @set
-
   getLength: ->
     @set.length
+
+  getSet: ->
+    @set
 
   add: (item) ->
     @.set.push item
@@ -23,13 +23,8 @@ Set:: =
   concat: (set) ->
     @set = @set.concat set.getSet()
 
-  contains: (item) ->
+  doesContain: (item) ->
     !!~@set.indexOf item
-
-  say: (item) ->
-    console.log item
-
-
 
 
 module.exports = Set
